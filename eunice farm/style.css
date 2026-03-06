@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: arial,sans-serif;
+}
+.body{
+    line-height: 1.6;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 60px;
+    background: #2e7d32;
+    color: white;
+}
+.nav-links{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+.nav-links a{
+    color: white;
+    text-decoration: none;
+}
+.hero{
+    height: 90vh;
+background: url();
+display: flex;
+align-items: center;
+padding: 60px;
+color: white;
+}
+.hero h1{
+    height: 90vh;
+    background: url();
+    display: flex;
+    align-items: center;
+    padding: 60px;
+    color: white;
+}
+.btn{
+    display: inline-block;
+    background: #ff9800;
+    color: white;
+    text-decoration: none;
+    margin-top: 15px;
+}
+.about{
+    display: flex;
+    padding: 60px;
+    gap: 40px;
+}
+.about img{
+width: 100%;
+border-radius: 10px;
+}
+.products{
+    padding: 60px;
+    background: #f4f4f4;
+    text-align: center;
+}
+.products-grid{
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+}
+.card{
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+.card img{
+    width: 100%;
+    border-radius: 10px;
+}
+.gallery{
+    padding: 60px;
+    text-align: center;
+}
+.gallery-grid img{
+    width: 100%;
+    border-radius: 10px;
+}
+.contact{
+    padding: 60px;
+    background: #2e7d32;
+    color: white;
+    text-align: center;
+}
+.footer{
+    background: #1b5e20;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
